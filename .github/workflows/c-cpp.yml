@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build App
-        run: g++ -static -std=c++11 -Wall FlashCard.cpp -o FlashCard
+        run: g++ -std=c++11 -Wall FlashCard.cpp -o FlashCard
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.2
         with:
