@@ -68,3 +68,4 @@ jobs:
         # An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)
         artifacts: app-linux,app-windows
         token: ${{ secrets.GITHUB_TOKEN }}
+        tag: v2.0.0
