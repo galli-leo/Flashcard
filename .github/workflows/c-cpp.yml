@@ -40,7 +40,7 @@ jobs:
           Neuro*
   build-macos:
     runs-on: macos-latest
-      steps:
+    steps:
       - uses: actions/checkout@v2
       - name: Build App
         run: g++ -static -std=c++11 -Wall FlashCard.cpp -o FlashCard
